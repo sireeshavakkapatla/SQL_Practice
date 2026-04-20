@@ -1,0 +1,31 @@
+I recently hit a turning point in my SQL learning — and it wasn’t about syntax, it was about thinking.
+
+One concept that really challenged me was understanding the difference between:
+• Overall average
+• Average per customer
+
+At first, they looked similar. But they operate at completely different levels.
+
+Overall average works at the order level — one value for the entire dataset.
+Average order value works at the customer level — one value per customer.
+
+Mixing these up leads to incorrect results, even if the SQL runs fine.
+
+Another key learning was when to use window functions vs subqueries.
+
+Window functions are powerful, but not always the answer.
+Sometimes a simple scalar subquery or CTE is the correct approach — especially when dealing with global metrics.
+
+The biggest shift for me was this:
+
+SQL is not about writing queries.
+It’s about understanding the level of data you’re working with.
+
+If you get the “grain” right, the query becomes much simpler.
+
+Now focusing on:
+• Window functions (ranking, running totals)
+• Writing interview-level SQL
+• Thinking in data layers instead of just syntax
+
+Would love to hear — what SQL concept took you the longest to truly understand?
